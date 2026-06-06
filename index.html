@@ -1,61 +1,124 @@
-```html
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<title>Portfolio Kỹ Năng Số</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân | Kỹ Năng Số & AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
 
-<nav>
-<div class="logo">🌸 Portfolio</div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">MyPortfolio<span class="dot">.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#intro" class="nav-link active">Giới Thiệu</a></li>
+                <li><a href="#projects" class="nav-link">Dự Án Bài Tập</a></li>
+                <li><a href="#summary" class="nav-link">Tổng Kết</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-<ul>
-<li><a href="index.html">Trang chủ</a></li>
-<li><a href="bai1.html">Bài 1</a></li>
-<li><a href="tongket.html">Tổng kết</a></li>
-</ul>
-</nav>
+    <header id="intro" class="section intro-section">
+        <div class="intro-content">
+            <div class="avatar-container">
+                <div class="avatar-placeholder"><i class="fa-solid fa-user-gradient"></i></div>
+            </div>
+            <h1>Xin chào, Tôi là <span class="highlight">[Họ và Tên Của Bạn]</span></h1>
+            <p class="subtitle">Sinh viên ngành: <span class="bold">[Tên Ngành Học Của Bạn]</span></p>
+            
+            <div class="bio-box">
+                <h3><i class="fa-solid fa-address-card"></i> Sở thích & Bản thân</h3>
+                <p>[Nhập một đoạn ngắn giới thiệu về sở thích cá nhân, đam mê công nghệ hoặc những điều đặc biệt về bạn tại đây].</p>
+            </div>
 
-<section class="hero">
-<h1>Portfolio Kỹ Năng Số</h1>
-<p>Hành trình học tập và phát triển kỹ năng số</p>
-</section>
+            <div class="goals-grid">
+                <div class="goal-card">
+                    <h3><i class="fa-solid fa-graduation-cap"></i> Mục Tiêu Học Tập</h3>
+                    <p>[Điền mục tiêu học tập của bạn vào đây. Ví dụ: Nắm vững kiến thức công nghệ số, cải thiện kỹ năng nghiên cứu khoa học,...]</p>
+                </div>
+                <div class="goal-card">
+                    <h3><i class="fa-solid fa-bullseye"></i> Mục Tiêu Portfolio</h3>
+                    <p>Hệ thống hóa trực quan các kỹ năng số đã tích lũy, tối ưu hóa trải nghiệm người dùng và lưu trữ sản phẩm bài tập một cách chuyên nghiệp.</p>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<div class="container">
+    <section id="projects" class="section projects-section">
+        <div class="section-title">
+            <h2>Hệ Thống Kết Quả Bài Tập</h2>
+            <p>Minh chứng quá trình học tập và ứng dụng công nghệ/AI chuyên sâu</p>
+        </div>
 
-<div class="card">
-<h2>Giới thiệu bản thân</h2>
+        <div class="projects-container">
+            
+            <div class="project-card">
+                <div class="card-tag">Bài 1 (Mục 1.4)</div>
+                <h3>Thao tác cơ bản với tệp tin và thư mục</h3>
+                <p class="task-desc"><strong>Yêu cầu:</strong> Trình bày cấu trúc thư mục tối ưu, quy tắc đặt tên tệp đã thiết lập kèm tài liệu/ảnh minh họa.</p>
+                <div class="project-result">
+                    <h4><i class="fa-solid fa-folder-tree"></i> Nội dung thực hiện:</h4>
+                    <p>Xây dựng hệ thống quản lý dữ liệu học tập logic khoa học, tối ưu thời gian tìm kiếm thông tin.</p>
+                    
+                    <div class="download-box">
+                        <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
+                        <a href="documents/baitap1.pdf" target="_blank" class="btn-download">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Mở xem báo cáo Bài 1
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-<p>
-Xin chào! Tôi là Nguyễn Ngọc Linh - sinh viên ngành Khoa học và kỹ thuật máy tính
-Portfolio này tổng hợp các sản phẩm học tập,
-minh chứng và trải nghiệm trong học phần Kỹ năng số.
-</p>
+            <div class="project-card">
+                <div class="card-tag">Bài 2 (Mục 2.4)</div>
+                <h3>Tìm kiếm & Đánh giá thông tin học thuật</h3>
+                <p class="task-desc"><strong>Yêu cầu:</strong> Trình bày kết quả tìm kiếm học thuật bằng các toán tử nâng cao và bảng đánh giá nguồn tin.</p>
+                <div class="project-result">
+                    <h4><i class="fa-solid fa-magnifying-glass"></i> Nội dung thực hiện:</h4>
+                    <p>Ứng dụng các toán tử tìm kiếm chuyên sâu để chọn lọc tài liệu uy tín từ nguồn chính thống phục vụ nghiên cứu.</p>
+                    
+                    <div class="download-box">
+                        <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
+                        <a href="documents/baitap2.pdf" target="_blank" class="btn-download">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Mở xem báo cáo Bài 2
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-</div>
+            <div class="project-card">
+                <div class="card-tag">Bài 3 (Mục 3.4)</div>
+                <h3>Viết Prompt hiệu quả cho các tác vụ học tập</h3>
+                <p class="task-desc"><strong>Yêu cầu:</strong> Trình bày sự so sánh giữa Prompt ban đầu và Prompt cải tiến cùng kết quả đầu ra từ AI.</p>
+                <div class="project-result">
+                    <h4><i class="fa-solid fa-terminal"></i> Nội dung thực hiện:</h4>
+                    <p>Áp dụng kỹ thuật Prompt Engineering nâng cao (Bối cảnh, Vai trò, Nhiệm vụ rõ ràng) để làm việc với AI hiệu quả.</p>
+                    
+                    <div class="download-box">
+                        <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
+                        <a href="documents/baitap3.pdf" target="_blank" class="btn-download">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Mở xem báo cáo Bài 3
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-<div class="card">
-
-<h2>Mục tiêu học tập</h2>
-
-<ul>
-<li>Phát triển kỹ năng số.</li>
-<li>Nâng cao kỹ năng tìm kiếm thông tin.</li>
-<li>Ứng dụng AI hiệu quả.</li>
-<li>Rèn luyện kỹ năng hợp tác trực tuyến.</li>
-</ul>
-
-</div>
-
-</div>
-
-<footer>
-Portfolio Kỹ Năng Số 2026
-</footer>
-
-</body>
-</html>
-```
+            <div class="project-card">
+                <div class="card-tag">Bài 4 (Mục 4.4)</div>
+                <h3>Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h3>
+                <p class="task-desc"><strong>Yêu cầu:</strong> Trình bày minh chứng về việc sử dụng công cụ quản lý dự án nhóm và cách thức phối hợp trực tuyến.</p>
+                <div class="project-result">
+                    <h4><i class="fa-solid fa-users"></i> Nội dung thực hiện:</h4>
+                    <p>Ứng dụng không gian làm việc số và quản trị tiến độ trực quan để tối ưu hóa hiệu suất làm việc nhóm.</p>
+                    
+                    <div class="download-box">
+                        <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
+                        <a href="documents/baitap4.pdf" target="_blank" class="btn-download">
+                            <i class="fa-solid fa-arrow-up-right
