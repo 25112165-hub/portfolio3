@@ -26,47 +26,70 @@
     </nav>
 
     <header id="intro" class="section intro-section">
-        <div class="intro-content">
+        <div class="single-column-container">
             <div class="avatar-container">
-                <div class="avatar-placeholder"><i class="fa-solid fa-user-gradient"></i></div>
+                <div class="avatar-placeholder"><i class="fa-solid fa-user-tie"></i></div>
             </div>
-            <h1>Xin chào, Tôi là <span class="highlight">[Họ và Tên Của Bạn]</span></h1>
-            <p class="subtitle">Sinh viên ngành: <span class="bold">[Tên Ngành Học Của Bạn]</span></p>
             
-            <div class="bio-box">
-                <h3><i class="fa-solid fa-address-card"></i> Sở thích & Bản thân</h3>
-                <p>[Nhập một đoạn ngắn giới thiệu về sở thích cá nhân, đam mê công nghệ hoặc những điều đặc biệt về bạn tại đây].</p>
+            <h1 class="main-title">Xin chào, Tôi là <span class="highlight">[Họ và Tên Của Bạn]</span></h1>
+            
+            <div class="info-table-box">
+                <h3><i class="fa-solid fa-address-card"></i> Thông Tin Cá Nhân</h3>
+                <table class="personal-info-table">
+                    <tr>
+                        <td><strong><i class="fa-solid fa-id-card"></i> Mã sinh viên:</strong></td>
+                        <td>[Nhập Mã Sinh Viên của bạn]</td>
+                    </tr>
+                    <tr>
+                        <td><strong><i class="fa-solid fa-cake-candles"></i> Ngày sinh:</strong></td>
+                        <td>[Nhập Ngày/Tháng/Năm sinh]</td>
+                    </tr>
+                    <tr>
+                        <td><strong><i class="fa-solid fa-school"></i> Trường học:</strong></td>
+                        <td>[Nhập Tên Trường Đại học/Cao đẳng]</td>
+                    </tr>
+                    <tr>
+                        <td><strong><i class="fa-solid fa-graduation-cap"></i> Ngành học:</strong></td>
+                        <td>[Nhập Tên Ngành Học]</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="content-block">
+                <h3><i class="fa-solid fa-heart"></i> Sở thích & Bản thân</h3>
+                <p>[Nhập một đoạn văn ngắn chia sẻ về sở thích cá nhân, đam mê công nghệ, phong cách sống hoặc những điều thú vị về bản thân bạn tại đây].</p>
             </div>
 
-            <div class="goals-grid">
-                <div class="goal-card">
-                    <h3><i class="fa-solid fa-graduation-cap"></i> Mục Tiêu Học Tập</h3>
-                    <p>[Điền mục tiêu học tập của bạn vào đây. Ví dụ: Nắm vững kiến thức công nghệ số, cải thiện kỹ năng nghiên cứu khoa học,...]</p>
-                </div>
-                <div class="goal-card">
-                    <h3><i class="fa-solid fa-bullseye"></i> Mục Tiêu Portfolio</h3>
-                    <p>Hệ thống hóa trực quan các kỹ năng số đã tích lũy, tối ưu hóa trải nghiệm người dùng và lưu trữ sản phẩm bài tập một cách chuyên nghiệp.</p>
-                </div>
+            <div class="content-block">
+                <h3><i class="fa-solid fa-user-gear"></i> Mục tiêu học tập</h3>
+                <p>[Nêu rõ mục tiêu của bạn trong học kỳ này hoặc trong suốt quá trình học. Ví dụ: Làm chủ các công cụ công nghệ số, cải thiện điểm số các môn chuyên ngành, tăng cường khả năng tự học,...]</p>
+            </div>
+
+            <div class="content-block">
+                <h3><i class="fa-solid fa-compass"></i> Định hướng phát triển cá nhân</h3>
+                <p>[Mô tả định hướng trong tương lai hoặc mục tiêu nghề nghiệp sau khi ra trường của bạn. Ví dụ: Trở thành chuyên viên trong lĩnh vực ứng dụng AI, phát triển kỹ năng mềm bài bản để thích ứng môi trường làm việc thực tế,...]</p>
+            </div>
+
+            <div class="content-block">
+                <h3><i class="fa-solid fa-bullseye"></i> Mục tiêu Portfolio</h3>
+                <p>Hệ thống hóa toàn bộ minh chứng và kết quả của 6 bài tập thành phần một cách trực quan; chứng minh năng lực ứng dụng công nghệ số; đồng thời tối ưu hóa cấu trúc 1 khổ giúp người xem dễ dàng theo dõi từ trên xuống dưới một cách mạch lạc, liền mạch.</p>
             </div>
         </div>
     </header>
 
     <section id="projects" class="section projects-section">
-        <div class="section-title">
-            <h2>Hệ Thống Kết Quả Bài Tập</h2>
-            <p>Minh chứng quá trình học tập và ứng dụng công nghệ/AI chuyên sâu</p>
-        </div>
-
-        <div class="projects-container">
+        <div class="single-column-container">
+            <div class="section-title">
+                <h2>Hệ Thống Kết Quả Bài Tập</h2>
+                <p>Minh chứng quá trình học tập và ứng dụng công nghệ/AI chuyên sâu</p>
+            </div>
             
-            <div class="project-card">
+            <div class="project-card-row">
                 <div class="card-tag">Bài 1 (Mục 1.4)</div>
                 <h3>Thao tác cơ bản với tệp tin và thư mục</h3>
                 <p class="task-desc"><strong>Yêu cầu:</strong> Trình bày cấu trúc thư mục tối ưu, quy tắc đặt tên tệp đã thiết lập kèm tài liệu/ảnh minh họa.</p>
                 <div class="project-result">
-                    <h4><i class="fa-solid fa-folder-tree"></i> Nội dung thực hiện:</h4>
-                    <p>Xây dựng hệ thống quản lý dữ liệu học tập logic khoa học, tối ưu thời gian tìm kiếm thông tin.</p>
-                    
+                    <p>Xây dựng hệ thống quản lý dữ liệu học tập logic khoa học, áp dụng đúng quy tắc đặt tên tệp đồng bộ để tối ưu thời gian tìm kiếm thông tin.</p>
                     <div class="download-box">
                         <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
                         <a href="documents/baitap1.pdf" target="_blank" class="btn-download">
@@ -76,14 +99,12 @@
                 </div>
             </div>
 
-            <div class="project-card">
+            <div class="project-card-row">
                 <div class="card-tag">Bài 2 (Mục 2.4)</div>
                 <h3>Tìm kiếm & Đánh giá thông tin học thuật</h3>
                 <p class="task-desc"><strong>Yêu cầu:</strong> Trình bày kết quả tìm kiếm học thuật bằng các toán tử nâng cao và bảng đánh giá nguồn tin.</p>
                 <div class="project-result">
-                    <h4><i class="fa-solid fa-magnifying-glass"></i> Nội dung thực hiện:</h4>
-                    <p>Ứng dụng các toán tử tìm kiếm chuyên sâu để chọn lọc tài liệu uy tín từ nguồn chính thống phục vụ nghiên cứu.</p>
-                    
+                    <p>Ứng dụng các toán tử tìm kiếm chuyên sâu để loại bỏ thông tin rác, chọn lọc tài liệu uy tín từ nguồn chính thống phục vụ nghiên cứu.</p>
                     <div class="download-box">
                         <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
                         <a href="documents/baitap2.pdf" target="_blank" class="btn-download">
@@ -93,14 +114,12 @@
                 </div>
             </div>
 
-            <div class="project-card">
+            <div class="project-card-row">
                 <div class="card-tag">Bài 3 (Mục 3.4)</div>
                 <h3>Viết Prompt hiệu quả cho các tác vụ học tập</h3>
                 <p class="task-desc"><strong>Yêu cầu:</strong> Trình bày sự so sánh giữa Prompt ban đầu và Prompt cải tiến cùng kết quả đầu ra từ AI.</p>
                 <div class="project-result">
-                    <h4><i class="fa-solid fa-terminal"></i> Nội dung thực hiện:</h4>
-                    <p>Áp dụng kỹ thuật Prompt Engineering nâng cao (Bối cảnh, Vai trò, Nhiệm vụ rõ ràng) để làm việc với AI hiệu quả.</p>
-                    
+                    <p>Áp dụng thành thạo kỹ thuật Prompt Engineering nâng cao (Bối cảnh, Vai trò, Nhiệm vụ rõ ràng) nhằm khai thác tối đa chiều sâu kiến thức từ AI.</p>
                     <div class="download-box">
                         <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
                         <a href="documents/baitap3.pdf" target="_blank" class="btn-download">
@@ -110,15 +129,82 @@
                 </div>
             </div>
 
-            <div class="project-card">
+            <div class="project-card-row">
                 <div class="card-tag">Bài 4 (Mục 4.4)</div>
                 <h3>Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h3>
                 <p class="task-desc"><strong>Yêu cầu:</strong> Trình bày minh chứng về việc sử dụng công cụ quản lý dự án nhóm và cách thức phối hợp trực tuyến.</p>
                 <div class="project-result">
-                    <h4><i class="fa-solid fa-users"></i> Nội dung thực hiện:</h4>
-                    <p>Ứng dụng không gian làm việc số và quản trị tiến độ trực quan để tối ưu hóa hiệu suất làm việc nhóm.</p>
-                    
+                    <p>Ứng dụng không gian làm việc số và quản trị tiến độ trực quan để phân chia công việc rõ ràng, tối ưu hóa hiệu suất làm việc nhóm từ xa.</p>
                     <div class="download-box">
                         <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
                         <a href="documents/baitap4.pdf" target="_blank" class="btn-download">
-                            <i class="fa-solid fa-arrow-up-right
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Mở xem báo cáo Bài 4
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card-row">
+                <div class="card-tag">Bài 5 (Mục 5.4)</div>
+                <h3>Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung</h3>
+                <p class="task-desc"><strong>Yêu cầu:</strong> Trưng bày sản phẩm nội dung số hoàn thiện (hình ảnh, video hoặc bài viết) được hỗ trợ bởi AI.</p>
+                <div class="project-result">
+                    <p>Tận dụng sức mạnh trí tuệ nhân tạo làm đòn bẩy trong việc lên kịch bản, ý tưởng và thiết kế các sản phẩm truyền thông số mang dấu ấn sáng tạo cá nhân.</p>
+                    <div class="download-box">
+                        <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
+                        <a href="documents/baitap5.pdf" target="_blank" class="btn-download">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Mở xem báo cáo Bài 5
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card-row">
+                <div class="card-tag">Bài 6 (Mục 6.4)</div>
+                <h3>Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h3>
+                <p class="task-desc"><strong>Yêu cầu:</strong> Trình bày bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm dựa trên các nghiên cứu đã thực hiện.</p>
+                <div class="project-result">
+                    <p>Xây dựng ranh giới đạo đức nghiêm túc, tư duy phản biện cao trước thông tin của AI và cam kết tuân thủ nguyên tắc liêm chính học thuật.</p>
+                    <div class="download-box">
+                        <p><i class="fa-solid fa-file-pdf" style="color: #ef4444; font-size: 20px;"></i> <strong>Báo cáo đính kèm:</strong></p>
+                        <a href="documents/baitap6.pdf" target="_blank" class="btn-download">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Mở xem báo cáo Bài 6
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="summary" class="section summary-section">
+        <div class="single-column-container">
+            <div class="section-title">
+                <h2>Tổng Kết Dự Án Portfolio</h2>
+                <p>Trải nghiệm thực tế, bài học sâu sắc và định hướng hành trình tương lai</p>
+            </div>
+            
+            <div class="summary-card-row">
+                <h3><i class="fa-solid fa-heart-pulse"></i> Trải nghiệm & Cảm nhận cá nhân</h3>
+                <p>[Hãy ghi lại những cảm xúc thật của bạn trong suốt quá trình thực hiện chuỗi bài tập và xây dựng hoàn thiện trang Portfolio này tại đây].</p>
+            </div>
+            
+            <div class="summary-card-row">
+                <h3><i class="fa-solid fa-lightbulb"></i> Kiến thức & Kỹ năng quan trọng nhất</h3>
+                <p>[Liệt kê những giá trị tâm đắc nhất bạn rút ra được, ví dụ như: Kỹ năng quản lý dữ liệu khoa học, tư duy đặt câu hỏi cho AI, phối hợp nhóm trực tuyến,...]</p>
+            </div>
+
+            <div class="summary-card-row">
+                <h3><i class="fa-solid fa-rocket"></i> Thách thức & Hướng phát triển trong tương lai</h3>
+                <p>[Nêu những điểm bạn thấy khó khăn trong quá trình làm và cách thức bạn sẽ tiếp tục ứng dụng các công cụ công nghệ/AI này vào các môn học chuyên ngành tiếp theo hoặc công việc sau này].</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Thiết kế và phát triển bởi [Tên Của Bạn]. Sản phẩm đảm bảo các quy định về liêm chính học thuật.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
